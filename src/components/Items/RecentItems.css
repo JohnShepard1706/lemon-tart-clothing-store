@@ -1,0 +1,35 @@
+.center {
+  /* text-align: center; */
+  height: 700px;
+  position: relative;
+}
+.descr {
+  position: absolute;
+  padding-right: 15px;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+.pic {
+  height: 400px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  visibility: hidden;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  visibility: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,113 @@
+.show-modal {
+  position: absolute;
+  /* right: 87%; */
+  border: none;
+  background-color: transparent;
+  font-size: larger;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 11;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal123 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+
+  background-color: white;
+  /* padding: 6rem; */
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 12;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 10;
+} */
+
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  font-size: 40px;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.img {
+  width: 450px;
+}
+.title {
+  padding-top: 20px;
+  padding-right: 10px;
+}
+.description {
+  color: green;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.quantity {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.buy {
+  margin-top: 20px;
+  width: 90%;
+  height: 40px;
+  color: white;
+  border: none;
+}
+.green {
+  background-color: rgba(160, 183, 30, 255);
+}
+.yellow {
+  background-color: rgba(247, 219, 2, 255);
+}
+.hurry {
+  color: rgba(160, 183, 30, 255);
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.bar {
+  width: 90%;
+  margin-top: -10px;
+}
+/* ------------- */
+/* Modal Columns */
+/* ------------- */
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}

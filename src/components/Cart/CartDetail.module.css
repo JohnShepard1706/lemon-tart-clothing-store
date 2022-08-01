@@ -1,0 +1,197 @@
+.heading {
+  background-color: #3e3e3e;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+  margin-bottom: 5em;
+}
+
+.empty {
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.table {
+  margin-bottom: 5em;
+}
+
+.table table {
+  margin: auto;
+}
+
+thead {
+  border: 1px solid #c8c8c8;
+}
+
+tbody {
+  border: 1px solid #c8c8c8;
+}
+
+tfoot {
+  border: 1px solid #c8c8c8;
+}
+
+tbody img {
+  width: 5em;
+  height: 6.5em;
+}
+
+thead tr th {
+  padding: 15px;
+}
+
+tbody tr td {
+  padding: 15px;
+}
+
+tfoot tr td {
+  padding: 15px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.table input {
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  margin-left: 3px;
+  margin-right: 4px;
+  padding: 0;
+  text-align: center;
+}
+
+.incdec button {
+  color: black !important;
+  font-size: medium !important;
+  padding: auto !important;
+  margin-right: 0;
+}
+
+.table button {
+  color: white;
+  border: none;
+  background-color: #f7db02;
+  padding: 10px 27px 10px 30px;
+  letter-spacing: 3px;
+  font-size: small;
+}
+
+.table input::-webkit-outer-spin-button,
+.table input::-webkit-inner-spin-button {
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  /* height: 35px; */
+}
+
+/* Row and Columns */
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.column {
+  float: left;
+  /* width: 40%; */
+  /* padding: 10px; */
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column p {
+  font-weight: bold;
+}
+
+.column textarea {
+  border: 1px solid #c8c8c8;
+  min-height: 110px;
+  height: 40%;
+  width: 95%;
+}
+
+.column:first-child {
+  width: 41% !important;
+}
+
+.column:last-child {
+  width: 21%;
+  height: max-content;
+}
+
+.column th:last-child {
+  width: 1000px !important;
+}
+
+.column th:first-child {
+  width: 40%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column span .pbar {
+  margin-top: 4em;
+  width: 100%;
+}
+
+.free-shipping {
+  text-align: center;
+  color: white;
+  font-size: small;
+  width: 100%;
+  background-color: #ff4b4b;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 5px;
+}
+.free-shipping p {
+  margin: 0;
+}
+
+.coupon {
+  border: 1px solid #c8c8c8;
+  font-size: 13px;
+  padding: 5px 15px;
+}
+
+.warning {
+  margin-top: 1em;
+  color: #a0b71e;
+  font-weight: normal !important;
+}
+
+.terms {
+  text-align: right;
+}
+
+.terms input {
+  margin-right: 5px;
+}
+
+.terms label {
+  color: #a0b71e;
+}
+
+.terms button {
+  margin-top: 1em;
+  /* float: right; */
+  color: white;
+  border: none;
+  background-color: #f7db02;
+  padding: 10px 27px 10px 30px;
+  letter-spacing: 3px;
+  font-size: small;
+}

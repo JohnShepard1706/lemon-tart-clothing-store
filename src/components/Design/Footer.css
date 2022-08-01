@@ -1,0 +1,24 @@
+.footer {
+  position: relative;
+  background-color: black;
+  margin-top: 50px;
+  width: 100%;
+  height: 70px;
+}
+.cpr {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+.search {
+  position: absolute;
+  top: 20px;
+  left: 1350px;
+}
+
+#cpr {
+  color: white;
+}
+#title {
+  color: yellow;
+}

@@ -1,0 +1,167 @@
+.column {
+  float: left;
+  width: 50%;
+  /* padding: 10px; */
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+.column1 {
+  width: 40%;
+}
+
+.column2 {
+  width: 60%;
+  padding: 20px 0px 20px 35px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  /* margin: 3em 13em 0em 13em; */
+  margin: 3em 13vw 0em 13vw;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.price {
+  margin-bottom: 20px;
+}
+.redprice {
+  margin-bottom: 20px;
+  color: #d01345;
+}
+
+/* .descrip {
+  overflow: clip;
+  max-height: 20%;
+} */
+
+.relimage {
+  /* height: 322.2px; */
+  /* max-height: 322.2px; */
+  /* overflow: hidden; */
+  height: 45vh;
+}
+
+.sold {
+  color: #d01345;
+}
+
+.text {
+  color: #a0b71e;
+}
+
+.hurry {
+  text-align: center;
+  color: #a0b71e;
+}
+
+.bar {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 2%;
+}
+
+.time {
+  margin-top: 20px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.quantity {
+  margin-top: 10px;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+}
+
+.buy {
+  margin-top: 20px;
+  width: 90%;
+  height: 40px;
+  color: white;
+  border: none;
+}
+.green {
+  background-color: rgba(160, 183, 30, 255);
+}
+
+.yellow {
+  margin-top: 4em;
+  display: block;
+  background-color: rgba(247, 219, 2, 255);
+}
+
+.visitor {
+  margin-top: 20px;
+}
+
+.visitorNo {
+  background-color: #f7db02;
+  padding: 5px 10px 5px 10px;
+}
+
+.description {
+  /* margin: auto; */
+  text-align: center;
+}
+
+.description button {
+  margin-right: 2em;
+  border: none;
+  background-color: #ffffff;
+}
+
+.description button:hover {
+  color: #f7db02;
+}
+
+.description div {
+  border: black solid 1px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 2.5em 0em 2.5em 2em;
+}
+
+.description p {
+  color: #a0b71e;
+  margin: 0;
+}
+
+.related-products {
+  margin-top: 4em;
+  text-align: center;
+}
+.related-products p {
+  color: gray;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+/* Loading */
+.loading {
+  /* margin-top: 30%; */
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.related-loading {
+  margin: 10% auto 10% auto;
+  /* margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%; */
+}
